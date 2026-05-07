@@ -1,0 +1,23 @@
+ROBO RENAME - COMO USAR
+
+1. Deixe esta estrutura na mesma pasta:
+   RoboRename.exe
+   entrada\
+   saida\
+
+2. Coloque um ou mais arquivos PDF dentro da pasta entrada.
+
+3. Dê dois cliques em RoboRename.exe.
+
+4. Os PDFs separados e renomeados serão criados na pasta saida.
+
+5. Caso algo dê erro, consulte a pasta logs.
+
+Observações:
+- O programa processa todos os PDFs encontrados na pasta entrada.
+- A pasta entrada não é apagada automaticamente.
+- Arquivos repetidos na saida recebem sufixo __2, __3 etc.
+
+Dependências: 
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt

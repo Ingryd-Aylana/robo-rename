@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+
+# Build
+build/
+dist/
+*.spec
+
+# Executável gerado
+*.exe
+
+# Pastas de uso
+entrada/*
+saida/*
+logs/*
+
+# Mantém as pastas no GitHub
+!entrada/.gitkeep
+!saida/.gitkeep
+!logs/.gitkeep
+
+# Sistema
+.DS_Store
+Thumbs.db
