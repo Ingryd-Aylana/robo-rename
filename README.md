@@ -26,6 +26,8 @@ Robo-Rename
 ├── entrada
 ├── saida
 └── logs
+```
+---
 
 ## Instalação do ambiente
 
